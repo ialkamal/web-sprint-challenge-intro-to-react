@@ -41,6 +41,12 @@ const App = () => {
             key={index}
             name={character.name}
             birth_year={character.birth_year}
+            gender={character.gender}
+            height={character.height}
+            mass={character.mass}
+            eye_color={character.eye_color}
+            skin_color={character.skin_color}
+            hair_color={character.hair_color}
           />
         );
       })}
